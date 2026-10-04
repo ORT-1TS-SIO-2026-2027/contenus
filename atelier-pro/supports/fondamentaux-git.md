@@ -460,11 +460,7 @@ git pull origin main
 **Exemple de conflit :**
 
 ```html
-<<<<<<< HEAD
-<h1>Mon Super Site</h1>
-=======
 <h1>Notre Fantastique Site</h1>
->>>>>>> feature-branch
 ```
 
 **Résolution :**
