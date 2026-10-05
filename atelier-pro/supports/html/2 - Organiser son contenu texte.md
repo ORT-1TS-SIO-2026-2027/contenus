@@ -8,7 +8,7 @@ Les éléments de titre permettent de définir certains textes comme des titres 
 <h4>Mon sous-sous-titre</h4>
 ```
 _**Résultat**_
-![[html_2-1.png]]
+![[ressources/html_2-1.png]]
 ## Les paragraphes
 les éléments [`<p>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p)sont utilisés pour contenir des paragraphes de texte. Vous les utiliserez fréquemment pour placer du texte sur une page.
 ```HTML
@@ -19,7 +19,7 @@ les éléments [`<p>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p
 </p>
 ```
 _**Résultat**_
-![[html_2-2.png]]
+![[ressources/html_2-2.png]]
 ## Formater du texte
 HTML contient des balises permettant de formater du texte à l’intérieur d’un élément de manière spécifique.
 ```HTML
@@ -36,7 +36,7 @@ HTML contient des balises permettant de formater du texte à l’intérieur d’
 <p>Ce <sup>texte</sup> est un demi caractère en dessus</p>
 ```
 _**Résultat**_
-![[html_2-3.png]]
+![[ressources/html_2-3.png]]
 ## Les liens
 Les liens sont très importants, ce sont eux qui permettent naviguer de page en page sur l’ensemble du web
 Pour créer un lien, il suffit d'utiliser l'élément `<a>` et de renseigner l’attribut `href` avec l’adresse ou l’on souhaite se rendre.
@@ -44,7 +44,7 @@ Pour créer un lien, il suffit d'utiliser l'élément `<a>` et de renseigner l�
 <a href="https://youtube.com">Accéder à Youtube</a>
 ```
 _**Résultat**_
-![[html_2-4.png]]
+![[ressources/html_2-4.png]]
 **Il existe 4 types de liens possibles:**
 - Un lien vers une autre page HTML de notre site
     

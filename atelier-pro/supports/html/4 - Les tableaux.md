@@ -36,7 +36,7 @@ table, th, td {
 </table>
 ```
 **Résultat**
-![[html_4-1.png]]
+![[ressources/html_4-1.png]]
 # Ajouter un titre au tableau
 ```HTML
 <table >
@@ -54,7 +54,7 @@ table, th, td {
 </table>
 ```
 **Résultat**
-![[html_4-2.png]]
+![[ressources/html_4-2.png]]
 # Ajouter des headers de colonnes
 ```HTML
 <table >
@@ -80,7 +80,7 @@ table, th, td {
 </table>
 ```
 **Résultat**
-![[html_4-3.png]]
+![[ressources/html_4-3.png]]
 # Ajouter des headers de lignes
 ```HTML
 <table >
@@ -109,7 +109,7 @@ table, th, td {
 </table>
 ```
 **Résultat**
-![[html_4-4.png]]
+![[ressources/html_4-4.png]]
 # Fusion de cellules
 ```HTML
 <table >
@@ -155,4 +155,4 @@ table, th, td {
     </table>
 ```
 **Résultat**
-![[html_4-5.png]]
+![[ressources/html_4-5.png]]

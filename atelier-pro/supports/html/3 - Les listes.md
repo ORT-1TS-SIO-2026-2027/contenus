@@ -10,7 +10,7 @@ L'élément HTML `**<ul>**` représente une liste d'éléments sans ordre parti
 </ul>
 ```
 _**Résultat**_
-![[html_3-1.png]]
+![[ressources/html_3-1.png]]
 ## Liste ordonnée
 L'élément HTML `**<ol>**` représente une liste ordonnée. Les éléments d'une telle liste sont généralement affichés avec un indicateur ordinal pouvant prendre la forme de nombres, de lettres, de chiffres romains ou de points. La mise en forme de la numérotation n'est pas utilisée dans la description HTML mais dans la feuille de style CSS associée grâce à la propriété `list-style-type`.
 ```HTML
@@ -24,7 +24,7 @@ L'élément HTML `**<ol>**` représente une liste ordonnée. Les éléments d'
 </ol>
 ```
 _**Résultat**_
-![[html_3-2.png]]]
+![[ressources/html_3-2.png]]
 
 > [!important]  
 > L’attribut start de l’element `<ol>` permet de déterminer indice de démarrage du compteur  
@@ -40,7 +40,7 @@ _**Résultat**_
 </ol>
 ```
 _**Résultat**_
-![[html_3-3.png]]
+![[ressources/html_3-3.png]]
 ## Liste de description
 L'élément HTML `**<dl>**` représente une liste de descriptions sous la forme d'une liste de paires associant des termes (fournis par des éléments `<dt>`) et leurs descriptions ou définitions (fournies par des éléments `<dd>`).
 ```HTML
@@ -64,7 +64,7 @@ L'élément HTML `**<dl>**` représente une liste de descriptions sous la forme
 </dl>
 ```
 _**Résultat**_
-![[html_3-4.png]]
+![[ressources/html_3-4.png]]
 ## Imbrications de listes
 ```HTML
 <p>La liste des affaires du petit</p>
@@ -91,7 +91,7 @@ _**Résultat**_
 </ul>
 ```
 _**Résultat**_
-![[html_3-5.png]]
+![[ressources/html_3-5.png]]
 
 > [!important]  
 > Il est aussi possible d’imbriquer des listes ordonnée et non ordonnée

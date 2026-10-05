@@ -4,7 +4,7 @@
 Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure. D'autres technologies sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).
 **Une balise**  est un code définissant un format de présentation de l’information.
 # Anatomie d’une balise
-![[html_1-1.png]]11_
+![[ressources/html_1-1.png]]11_
 Les composants principaux de notre élément sont :
 - **La balise ouvrante :** celle-ci se compose du nom de l'élément (ici « p »), entre deux **chevrons**. Cela indique le début de l'élément, soit l'endroit à partir duquel celui-ci prend effet. Pour notre exemple, cela indique le début du paragraphe.
 - **La balise fermante :** ici on a également des chevrons et le nom de l'élément, auxquels on ajoute une barre oblique avant le nom de l'élément. Cela indique la fin de l'élément. Pour notre exemple, cela indique la fin du paragraphe. Oublier la balise fermante est une erreur courante de débutant et peut conduire à de curieux résultats.
@@ -12,7 +12,7 @@ Les composants principaux de notre élément sont :
 - **L'élément :** Il est composé de la balise ouvrante, de la balise fermante et du contenu.
 
 Les éléments peuvent aussi avoir des « attributs », ce qui ressemble à :
-![[html_1-2.png]]
+![[ressources/html_1-2.png]]
 
 Les attributs contiennent des informations supplémentaires qui portent sur l'élément et qu'on ne souhaite pas afficher avec le contenu. Dans cet exemple, l'attribut `class` permet d'utiliser un nom pour identifier l'élément et ce nom pourra être utilisé plus tard pour la mise en forme ou autre chose.
 Un attribut doit toujours avoir :
@@ -23,18 +23,18 @@ Un attribut doit toujours avoir :
 Vous pouvez placer des éléments au sein d'autres éléments, c'est ce qu'on appelle l'**imbrication**.
 Par exemple, si vous souhaitez montrer que le chat de la voisine est **très gros**, vous pouvez placer le mot « gros ! » dans un élément [`<strong>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/strong), signifiant que le mot sera fortement mis en relief :
 
-![[html_1-3.png]]
+![[ressources/html_1-3.png]]
 # Les éléments vides ou balises auto-fermantes
 Certains éléments n'ont pas de contenu. Ces éléments sont appelés **éléments vides**. Prenons l'élément [`<img>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img) présent dans notre fichier HTML
 
-![[html_1-4.png]]
+![[ressourceshtml_1-4.png]]
 
 Cet élément contient deux attributs mais les balises ouvrante `<img>`  
  et fermante   
 `</img>`sont remplacées par une balise auto-fermante `<img />` et il n'y a aucun contenu interne.
 En effet, l'élément image n'embarque pas de contenu, son but est d'intégrer une image dans la page HTML, à l'endroit où l'élément est placé.
 # Structure d’un document HTML
-![[html_1-5.png]]
+![[ressources/html_1-5.png]]
 Cet exemple contient :
 - `<!DOCTYPE html>` :
 
@@ -63,7 +63,7 @@ Cet exemple contient :
 # Balises Structurantes et sémantique
 Dans votre code HTML, vous pouvez marquer des sections de contenu selon leur fonction.
 Vous pouvez utiliser des éléments qui représentent sans ambiguïté les sections de contenu décrites ci-dessus, et les technologies d'assistance comme les lecteurs d'écran peuvent reconnaître ces éléments et vous aider avec des tâches comme « trouver la navigation principale » ou « trouver le contenu principal ».
-![[html_1-6.png]]
+![[ressources/html_1-6.png]]
 Pour mettre en œuvre le marquage sémantique, HTML fournit des balises dédiées que vous pourrez utiliser pour représenter ces parties, par exemple :
 - **header :** [`<header>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/header).
 - **barre de navigation :** [`<nav>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/nav).
